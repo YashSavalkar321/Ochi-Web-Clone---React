@@ -19,7 +19,7 @@ function About() {
         </div>
 
         <div className="w-1/2 h-[65vh] rounded-3xl bg-cover overflow-hidden flex items-center justify-center">
-        <img src="../../about.jpg" className="" alt="" /></div>
+        <img src="/about.jpg" className="" alt="" /></div>
       </div>
     </div>
   );

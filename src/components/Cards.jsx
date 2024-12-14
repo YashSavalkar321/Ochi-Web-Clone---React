@@ -20,7 +20,7 @@ export default function Cards() {
           <div className="relative flex items-center justify-center card w-1/2 rounded-xl  h-full bg-[#727776]">
             <img
               className="w-32"
-              src="../../logo2.svg"
+              src="/logo2.svg"
               alt=""
             />
             <button className="absolute px-5 py-1 border-2 rounded-full left-10 bottom-10">
@@ -30,7 +30,7 @@ export default function Cards() {
           <div className="relative flex items-center justify-center card w-1/2 rounded-xl h-full bg-[#3c514e]">
             <img
               className="w-32"
-              src="../../logo3.png"
+              src="/logo3.png"
               alt=""
             />
             <button className="absolute px-2 py-1 border-2 rounded-full left-10 bottom-10">

@@ -46,6 +46,35 @@ function Footer() {
         <h1 className="text-[8vw] font-semibold uppercase leading-none -mb-10">
           presentations
         </h1>
+
+        <div className="mt-8 flex flex-col font-['Neue_Montreal']">
+          <p className="text-[1.5vw] mb-5">S:</p>
+          {["Instagram", "Behance", "Facebook", "LinkedIn", "Twitter"].map(
+            (data) => (
+              <a className="text-[1.3vw] cursor-pointer leading-8 font-light underline ">{data}</a>
+            )
+          )}
+        </div>
+
+        <div className="w-full flex gap-[22vw]">
+        <div className="mt-8 flex flex-col font-['Neue_Montreal']">
+          <p className="text-[1.5vw] mb-5">L:</p>
+          {["202-1965 W 4th Ave", "Vancouver, Canada", "30 Chukarina St", "Lviv, Ukraine"].map(
+            (data,idx) => (
+              <a className={`text-[1.3vw] cursor-pointer ${idx==2 && "mt-5"} leading-8 font-light underline `}>{data}</a>
+            )
+          )}
+        </div>
+
+        <div className="mt-5 flex flex-col font-['Neue_Montreal']">
+          <p className="text-[1.5vw] mb-5">M:</p>
+          {["Home", "Services", "Our Work", "About us","Insights","Contact Us"].map(
+            (data,idx) => (
+              <a className={`text-[1.3vw] cursor-pointer leading-8 font-light underline `}>{data}</a>
+            )
+          )}
+        </div>
+        </div>
       </div>
     </div>
   );

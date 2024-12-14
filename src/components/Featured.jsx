@@ -27,8 +27,8 @@ function Featured() {
       <div className="px-20">
         <div className="cards flex gap-5 w-full mt-10">
           {[
-            { key: "card1", title: "FYDE", img: "../../2.png" },
-            { key: "card2", title: "VISE", img: "../../3.jpg" },
+            { key: "card1", title: "FYDE", img: "/2.png" },
+            { key: "card2", title: "VISE", img: "/3.jpg" },
           ].map((card) => (
             <div
               key={card.key}
@@ -68,8 +68,8 @@ function Featured() {
       <div className="mt-20 px-20">
         <div className="cards flex gap-5 w-full mt-10">
           {[
-            { key: "card3", title: "TRAWA", img: "../../card3.jpg" },
-            { key: "card4", title: "PREMIUM BLEND", img: "../../card4.png" },
+            { key: "card3", title: "TRAWA", img: "/card3.jpg" },
+            { key: "card4", title: "PREMIUM BLEND", img: "/card4.png" },
           ].map((card) => (
             <div
               key={card.key}
